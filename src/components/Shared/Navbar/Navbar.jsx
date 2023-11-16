@@ -4,8 +4,8 @@ import logo from "../../../assets/sheba.svg";
 
 const Navbar = () => {
   return (
-    <div className="shadow-md w-full fixed top-0 left-0">
-      <div className="max-w-screen-lg mx-auto md:flex items-center justify-between bg-white py-3">
+    <div className="shadow-md w-full fixed z-10 top-0 left-0 bg-white">
+      <div className="max-w-screen-lg mx-auto md:flex items-center justify-between  py-3">
         <div className="font-bold text-2xl tracking-wider cursor-pointer">
           <Link>
             <img src={logo} alt="" />
