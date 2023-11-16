@@ -8,9 +8,9 @@ import insta from "../../../assets/instagram.svg";
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-gray-100 font-poppins py-16">
-        <div className=" max-w-screen-lg mx-auto flex justify-between">
-          <div className="flex space-x-8">
+      <footer className="bg-[#EBECEF] font-poppins py-16">
+        <div className=" max-w-screen-lg mx-auto flex ">
+          <div className="flex space-x-16">
             <div className="w-1/4 text-sm">
               <p className="text-sm font-bold mb-4">CONTACT</p>
               <p>16516</p>
