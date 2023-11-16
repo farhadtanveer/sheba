@@ -5,9 +5,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
-import slidesData from "./services.json"; // Adjust the path accordingly
+import slidesData from "./trending.json"; // Adjust the path accordingly
 
-const Services = () => {
+const Trending = () => {
   const [showLeftButton, setShowLeftButton] = useState(false);
   const [showRightButton, setShowRightButton] = useState(true);
   const slidesPerView = 4;
@@ -20,10 +20,10 @@ const Services = () => {
   };
 
   return (
-    <div className="max-w-screen-lg mx-auto mt-12 font-poppins">
+    <div className="max-w-screen-lg mx-auto mt-20 font-poppins">
       <div>
         <h1 className=" font-poppins text-2xl font-semibold tracking-wider mb-8">
-          For Your Home
+          Trending
         </h1>
       </div>
       <Swiper
@@ -66,4 +66,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Trending;
