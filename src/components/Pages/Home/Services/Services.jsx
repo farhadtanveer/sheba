@@ -27,7 +27,6 @@ const Services = () => {
         </h1>
       </div>
       <Swiper
-        className=" relative"
         slidesPerView={slidesPerView}
         spaceBetween={30}
         navigation={{
@@ -48,15 +47,15 @@ const Services = () => {
           </SwiperSlide>
         ))}
         <div
-          className={`top-[50%] absolute left-0 z-10 button-next-slide w-10 h-10 rounded-full bg-white shadow-md grid place-items-center ${
-            showLeftButton ? "hidden" : ""
+          className={`top-20 absolute left-0 z-10 button-prev-slide w-10 h-10 rounded-full bg-white shadow-lg grid place-items-center ${
+            showLeftButton ? "visible" : "invisible"
           }`}
         >
           <IoIosArrowBack color="#C71E66" size={35} />
         </div>
         <div
-          className={`top-[50%] absolute right-0 z-10 button-prev-slide w-10 h-10 rounded-full bg-white shadow-md grid place-items-center ${
-            showRightButton ? "hidden" : ""
+          className={`top-20 absolute right-0 z-10 button-next-slide w-10 h-10 rounded-full bg-white shadow-lg grid place-items-center ${
+            showRightButton ? "visible" : "invisible"
           }`}
         >
           <IoIosArrowForward color="#C71E66" size={35} />

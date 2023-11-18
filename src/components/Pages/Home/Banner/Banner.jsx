@@ -2,7 +2,6 @@ import React from "react";
 import banner from "../../../../assets/home-banner.webp";
 import location from "../../../../assets/location.svg";
 import search from "../../../../assets/search-icon-white.svg";
-import EMI from "../../../../assets/emi-banner.webp";
 
 const Banner = () => {
   return (
@@ -50,9 +49,6 @@ const Banner = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="max-w-screen-lg mx-auto md:flex items-center justify-between  py-3">
-        <img src={EMI} alt="" />
       </div>
     </div>
   );
