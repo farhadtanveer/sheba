@@ -4,7 +4,7 @@ const ServiceWorkflow = () => {
   return (
     <div>
       <div className="h-[450px] font-poppins mb-10">
-        <div className="max-w-screen-lg mx-auto">
+        <div className="my-container">
           <div className=" pt-12">
             <p className="text-sm flex justify-start items-center gap-3">
               <p className=" w-8 h-[1px] bg-gray-400"></p>

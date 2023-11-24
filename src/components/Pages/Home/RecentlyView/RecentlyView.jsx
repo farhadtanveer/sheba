@@ -5,9 +5,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
-import slidesData from "./recommanded.json"; // Adjust the path accordingly
+import slidesData from "./RecentlyView.json"; // Adjust the path accordingly
 
-const Recommanded = () => {
+const RecentlyView = () => {
   const [showLeftButton, setShowLeftButton] = useState(false);
   const [showRightButton, setShowRightButton] = useState(true);
   const slidesPerView = 4;
@@ -23,10 +23,11 @@ const Recommanded = () => {
     <div className="my-container mt-20 font-poppins">
       <div>
         <h1 className=" font-poppins text-2xl font-semibold tracking-wider mb-8">
-          Recommanded
+          Recently View
         </h1>
       </div>
       <Swiper
+        className=" relative"
         slidesPerView={slidesPerView}
         spaceBetween={30}
         navigation={{
@@ -47,15 +48,15 @@ const Recommanded = () => {
           </SwiperSlide>
         ))}
         <div
-          className={`top-20 absolute left-0 z-10 button-prev-slide w-10 h-10 rounded-full bg-white shadow-md grid place-items-center${
-            showLeftButton ? "visible" : "invisible"
+          className={`top-[50%] absolute left-0 z-10 button-next-slide w-10 h-10 rounded-full bg-white shadow-md grid place-items-center ${
+            showLeftButton ? "hidden" : ""
           }`}
         >
           <IoIosArrowBack color="#C71E66" size={35} />
         </div>
         <div
-          className={`top-20 absolute right-0 z-10 button-next-slide w-10 h-10 rounded-full bg-white shadow-md grid place-items-center${
-            showRightButton ? "visible" : "invisible"
+          className={`top-[50%] absolute right-0 z-10 button-prev-slide w-10 h-10 rounded-full bg-white shadow-md grid place-items-center ${
+            showRightButton ? "hidden" : ""
           }`}
         >
           <IoIosArrowForward color="#C71E66" size={35} />
@@ -65,4 +66,4 @@ const Recommanded = () => {
   );
 };
 
-export default Recommanded;
+export default RecentlyView;

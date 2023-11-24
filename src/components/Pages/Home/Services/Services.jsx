@@ -20,7 +20,7 @@ const Services = () => {
   };
 
   return (
-    <div className="max-w-screen-lg mx-auto mt-12 font-poppins">
+    <div className="my-container mt-12 font-poppins">
       <div>
         <h1 className=" font-poppins text-2xl font-semibold tracking-wider mb-8">
           For Your Home

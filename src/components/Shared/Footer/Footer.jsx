@@ -9,8 +9,8 @@ const Footer = () => {
   return (
     <div>
       <footer className="bg-[#EBECEF] font-poppins py-16">
-        <div className=" max-w-screen-lg mx-auto flex ">
-          <div className="flex space-x-16">
+        <div className=" my-container flex justify-center">
+          <div className="flex space-x-20">
             <div className="w-1/4 text-sm">
               <p className="text-sm font-bold mb-4">CONTACT</p>
               <p>16516</p>
@@ -61,14 +61,14 @@ const Footer = () => {
             </div>
             <div className="w-2/4 text-right">
               <p className="text-sm font-bold mb-4">DOWNLOAD OUR APP</p>
-              <p className="text-gray-600 text-xs tracking-wide mb-4">
+              <p className="text-gray-600 text-sm tracking-wide mb-4">
                 Tackle your to-do list wherever you are with our mobile app &
                 make your life easy.
               </p>
-              <div className="flex gap-4">
-                <img className="w-40 h-12" src={appStore} alt="App Store" />
+              <div className="flex justify-between gap-2">
+                <img className="w-44 h-12" src={appStore} alt="App Store" />
                 <img
-                  className="w-40 h-12"
+                  className=" w-44 h-12"
                   src={googleStore}
                   alt="Google Play Store"
                 />

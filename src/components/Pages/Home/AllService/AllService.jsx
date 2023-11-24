@@ -29,7 +29,7 @@ const AllService = () => {
 
   return (
     <div>
-      <div className="max-w-screen-lg mx-auto -mt-[52px] px-6 bg-white font-poppins h-[120px] shadow-lg rounded-lg relative">
+      <div className="my-container -mt-[52px] px-6 bg-white font-poppins h-[120px] shadow-lg rounded-lg relative">
         <Swiper
           slidesPerView={slidesPerView}
           spaceBetween={30}
@@ -136,7 +136,7 @@ const AllService = () => {
           </div>
         </Swiper>
       </div>
-      <div className="max-w-screen-lg mx-auto md:flex items-center justify-between mt-8 py-3">
+      <div className=" max-w-[1100px] mx-auto md:flex items-center justify-between mt-8">
         <img src={EMI} alt="" />
       </div>
     </div>

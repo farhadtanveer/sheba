@@ -4,6 +4,7 @@ import AppService from "../AppService/AppService";
 import Banner from "../Banner/Banner";
 import Benefits from "../Benefits/Benefits";
 import Helpline from "../helpLine/Helpline";
+import RecentlyView from "../RecentlyView/RecentlyView";
 import Recommanded from "../recommanded/recommanded";
 import Services from "../Services/Services";
 import ServiceWorkflow from "../ServiceWorkflow/ServiceWorkflow";
@@ -15,6 +16,7 @@ const Home = () => {
       <Banner></Banner>
       <AllService></AllService>
       <Services></Services>
+      <RecentlyView></RecentlyView>
       <Recommanded></Recommanded>
       <Services></Services>
       <Trending></Trending>

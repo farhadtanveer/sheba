@@ -5,7 +5,7 @@ import { IoMdCall } from "react-icons/io";
 const Helpline = () => {
   return (
     <div className=" bg-[#F4F5F8] h-52 font-poppins relative">
-      <div className=" max-w-screen-lg mx-auto flex">
+      <div className=" my-container flex">
         <div className=" flex flex-col pt-14">
           <div>
             <p className=" text-2xl font-semibold text-wider">

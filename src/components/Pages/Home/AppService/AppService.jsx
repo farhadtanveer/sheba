@@ -5,7 +5,7 @@ import googleStore from "../../../../assets/play-store.png";
 
 const AppService = () => {
   return (
-    <div className=" max-w-screen-lg mx-auto h-[580px] flex justify-center items-center gap-10  font-poppins">
+    <div className=" my-container h-[580px] flex justify-between items-center gap-10  font-poppins">
       <div>
         {" "}
         <img src={app} alt="" />
