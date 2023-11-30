@@ -6,6 +6,7 @@ import Benefits from "../Benefits/Benefits";
 import Helpline from "../helpLine/Helpline";
 import RecentlyView from "../RecentlyView/RecentlyView";
 import Recommanded from "../recommanded/recommanded";
+import Reviews from "../Reviews/Reviews";
 import Services from "../Services/Services";
 import ServiceWorkflow from "../ServiceWorkflow/ServiceWorkflow";
 import Trending from "../Tranding/Trending";
@@ -22,6 +23,7 @@ const Home = () => {
       <Trending></Trending>
       <Benefits></Benefits>
       <ServiceWorkflow></ServiceWorkflow>
+      <Reviews></Reviews>
       <AppService></AppService>
       <Helpline></Helpline>
     </div>
