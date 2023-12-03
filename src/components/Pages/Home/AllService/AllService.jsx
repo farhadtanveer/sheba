@@ -29,7 +29,7 @@ const AllService = () => {
 
   return (
     <div>
-      <div className="my-container -mt-[52px] px-6 bg-white font-poppins h-[120px] shadow-lg rounded-lg relative">
+      <div className="my-container lg:-mt-[52px] px-6 bg-white font-poppins lg:h-[120px] shadow-lg rounded-lg relative">
         <Swiper
           slidesPerView={slidesPerView}
           spaceBetween={30}

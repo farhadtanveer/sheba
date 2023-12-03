@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <div>
       <div
-        className="relative h-screen flex items-center justify-center bg-cover bg-center"
+        className="relative lg:h-screen flex items-center justify-center bg-cover bg-center"
         style={{
           backgroundImage: `url(${banner})`,
           marginTop: "70px",
@@ -23,8 +23,8 @@ const Banner = () => {
             One-stop solution for your services. Order any service, anytime.
           </h1>
           <div className="mx-auto">
-            <div className="flex gap-3 justify-center items-center mb-4">
-              <div>
+            <div className="lg:flex gap-3 justify-center items-center mb-4">
+              <div className=" mb-3 lg:mb-0">
                 <button className="bg-white text-black px-16 py-4 rounded-md">
                   <div className=" flex justify-center items-center gap-2">
                     <img className="" src={location} alt="" />

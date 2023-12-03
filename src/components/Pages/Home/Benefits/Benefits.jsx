@@ -8,8 +8,8 @@ import img4 from "../../../../assets/usp_gloves.png";
 const Benefits = () => {
   return (
     <div>
-      <div className="h-[450px] bg-[#FAFBFC] mt-28 font-poppins">
-        <div className=" my-container">
+      <div className="lg:h-[450px] bg-[#FAFBFC] mt-28 font-poppins">
+        <div className=" my-container px-8 lg:px-0">
           <div className=" pt-12">
             <p className="text-sm flex justify-start items-center gap-3">
               <p className=" w-8 h-[1px] bg-gray-400"></p>
@@ -19,7 +19,7 @@ const Benefits = () => {
               Because we care about your safety..
             </p>
           </div>
-          <div className=" flex justify-between gap-6 mt-8">
+          <div className=" lg:flex justify-between gap-6 mt-8">
             <div className=" grid grid-cols-2 gap-5">
               <div className=" bg-white rounded-lg flex justify-center items-center gap-2 px-10">
                 <img className=" w-14 h-14" src={img1} alt="" />
@@ -52,24 +52,24 @@ const Benefits = () => {
           </div>
         </div>
       </div>
-      <div className="h-[145px] bg-[#F4F5F8] mt-1 font-poppins">
-        <div className=" max-w-screen-lg mx-auto flex justify-around py-7">
+      <div className="lg:h-[145px] bg-[#F4F5F8] mt-1 font-poppins">
+        <div className=" max-w-screen-lg mx-auto lg:flex justify-around py-7">
           <div>
-            <p className=" text-5xl">15,000 +</p>
+            <p className=" text-5xl text-center">15,000 +</p>
             <p className=" text-lg tracking-wide text-center mt-3">
               Service Providers
             </p>
           </div>
           <p className=" w-[4px] h-20 bg-white"></p>
           <div>
-            <p className=" text-5xl">2,00,000 +</p>
+            <p className=" text-5xl text-center">2,00,000 +</p>
             <p className=" text-lg tracking-wide text-center mt-3">
               Order Served
             </p>
           </div>
           <p className=" w-[4px] h-20 bg-white"></p>
           <div>
-            <p className=" text-5xl">1,00,000 +</p>
+            <p className=" text-5xl text-center">1,00,000 +</p>
             <p className=" text-lg tracking-wide text-center mt-3">
               5 Star Received
             </p>

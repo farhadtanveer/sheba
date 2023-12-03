@@ -3,8 +3,8 @@ import React from "react";
 const ServiceWorkflow = () => {
   return (
     <div>
-      <div className="h-[450px] font-poppins mb-10">
-        <div className="my-container">
+      <div className=" lg:h-[450px] font-poppins mb-10">
+        <div className="my-container px-8 lg:px-0">
           <div className=" pt-12">
             <p className="text-sm flex justify-start items-center gap-3">
               <p className=" w-8 h-[1px] bg-gray-400"></p>
@@ -14,8 +14,8 @@ const ServiceWorkflow = () => {
               Easiest way to get a service
             </p>
           </div>
-          <div className=" flex justify-between gap-12 mt-8">
-            <div className=" w-full">
+          <div className=" lg:flex justify-between gap-12 mt-8">
+            <div className=" w-full  mb-3">
               <iframe
                 className="rounded-lg h-[330px] w-full"
                 src="https://www.youtube.com/embed/OMW0BfVYSOI"

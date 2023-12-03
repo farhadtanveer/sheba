@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div className="shadow-md w-full fixed z-10 top-0 left-0 bg-white">
-      <div className="my-container md:flex items-center justify-between  py-3">
+      <div className="my-container md:flex items-center justify-between px-3 py-3">
         <div className="font-bold text-2xl tracking-wider cursor-pointer">
           <Link>
             <img src={logo} alt="" />

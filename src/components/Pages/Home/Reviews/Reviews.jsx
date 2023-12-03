@@ -21,14 +21,14 @@ const Reviews = () => {
 
   return (
     <div>
-      <div className="h-[620px] font-poppins mt-36 mb-10 bg-[#F4F5F8]">
-        <div className="my-container pt-14">
+      <div className="lg:h-[620px] font-poppins lg:mt-36 mb-10 bg-[#F4F5F8]">
+        <div className="my-container px-8 lg:px-0 lg:pt-14">
           <div className=" pt-12">
             <p className="text-sm flex justify-start items-center gap-3">
               <p className=" w-8 h-[1px] bg-gray-400"></p>
               <p>SOME HAPPY FACES</p>
             </p>
-            <p className=" text-3xl mt-3 font-semibold tracking-wide">
+            <p className=" text-3xl mt-3 font-semibold tracking-wider">
               Real Happy Customers, Real Stories
             </p>
           </div>
@@ -44,9 +44,9 @@ const Reviews = () => {
           >
             {slidesData.map((slide, index) => (
               <SwiperSlide key={index}>
-                <div className="flex justify-between gap-3 mt-10">
-                  <p className=" w-2 h-[300px] bg-[#00A1BA] mr-5"></p>
-                  <div className=" w-1/2">
+                <div className=" lg:flex justify-between gap-3 mt-10">
+                  <p className="hidden sm:block w-2 h-[300px] bg-[#00A1BA] mr-5"></p>
+                  <div className=" lg:w-1/2">
                     <p className="text-xl font-light text-[#49494A] italic pt-6 tracking-wide">
                       <span className="text-3xl font-bold">&quot; </span>
                       {slide.review}
@@ -61,7 +61,7 @@ const Reviews = () => {
                       {slide.designation}
                     </p>
                   </div>
-                  <div className=" w-1/2">
+                  <div className=" lg:w-1/2 pb-14 lg:pb-10">
                     <iframe
                       className="rounded-lg h-[330px] w-full"
                       src={slide.link}

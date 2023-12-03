@@ -22,7 +22,7 @@ const RecentlyView = () => {
   return (
     <div className="my-container mt-20 font-poppins">
       <div>
-        <h1 className=" font-poppins text-2xl font-semibold tracking-wider mb-8">
+        <h1 className=" font-poppins text-2xl font-semibold tracking-wider mb-8 px-8 lg:px-0">
           Recently View
         </h1>
       </div>
@@ -40,7 +40,11 @@ const RecentlyView = () => {
         {slidesData.map((slide, index) => (
           <SwiperSlide key={index}>
             <div>
-              <img className="rounded-md w-60 h-44" src={slide.img} alt="" />
+              <img
+                className="rounded-md w-full lg:w-60 lg:h-44"
+                src={slide.img}
+                alt=""
+              />
               <p className=" font-poppins text-md font-bold tracking-wide mt-4 ">
                 {slide.title}
               </p>

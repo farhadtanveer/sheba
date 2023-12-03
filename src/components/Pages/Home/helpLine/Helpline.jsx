@@ -4,9 +4,9 @@ import { IoMdCall } from "react-icons/io";
 
 const Helpline = () => {
   return (
-    <div className=" bg-[#F4F5F8] h-52 font-poppins relative">
+    <div className=" bg-[#F4F5F8] lg:h-52 font-poppins relative pb-3">
       <div className=" my-container flex">
-        <div className=" flex flex-col pt-14">
+        <div className=" flex flex-col pt-14 px-8 lg:px-0">
           <div>
             <p className=" text-2xl font-semibold text-wider">
               Can’t find your desired service? Let us know 24/7 in 16516.
@@ -29,7 +29,7 @@ const Helpline = () => {
               <p>16516</p>
             </a>
           </div>
-          <div className="absolute bottom-0 right-0 pr-36">
+          <div className="hidden sm:block absolute bottom-0 right-0 pr-36">
             <img src={call} alt="" />
           </div>
         </div>

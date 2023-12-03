@@ -5,7 +5,7 @@ import googleStore from "../../../../assets/play-store.png";
 
 const AppService = () => {
   return (
-    <div className=" my-container h-[580px] flex justify-between items-center gap-10  font-poppins">
+    <div className=" my-container lg:h-[580px] lg:flex justify-between items-center gap-10  font-poppins px-8 lg:px-0 mb-3">
       <div>
         {" "}
         <img src={app} alt="" />
@@ -29,7 +29,7 @@ const AppService = () => {
             placeholder="Type your mobile number"
           />
           <a
-            className=" bg-[#C71E66] hover:bg-[#c35b88] text-white px-6 py-4 rounded-r-lg text-mg tracking-wider"
+            className=" bg-[#C71E66] hover:bg-[#c35b88] text-white lg:px-6 py-4 rounded-r-lg text-mg tracking-wider"
             href="#"
           >
             Get the app
